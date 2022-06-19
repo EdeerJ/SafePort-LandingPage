@@ -260,6 +260,75 @@ footer p a {
     }
 }
 
+.Servicio {
+    background-color: #F7F7F7;
+}
+
+.Servicio .grid li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.Servicio .grid li i {
+    font-size: 50px;
+    color: #2196F3;
+    margin-bottom: 25px;
+}
+
+.Servicio .grid li h4 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.Servicio .grid li p {
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .Servicio .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+    .Servicio .grid li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.Unete {
+    background-color: #F7F7F7;
+}
+
+.Unete form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 80%;
+}
+
+.Unete form input {
+    padding: 15px;
+    flex: 1;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #555;
+}
+
+.Unete form .btn {
+    padding: 18px 42px;
+}
+
+@media (max-width: 800px) {
+    .Unete form input {
+        flex-basis: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+
 .Contacto {
     background-color: #F7F7F7;
 }
